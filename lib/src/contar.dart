@@ -49,7 +49,7 @@ class _ContadorState extends State<Contador> {
             ),
             Text(
               'El numero es : $_contar',
-              style: const TextStyle(fontSize: 35.0, color: Colors.lightBlue),
+              style: const TextStyle(fontSize: 35.0, color: Colors.red),
             ),
             Image(image: AssetImage('assets/images/image.jpg',), height: 100, width: 200
             ),
@@ -60,7 +60,7 @@ class _ContadorState extends State<Contador> {
         shape: const CircularNotchedRectangle(),
         child: Container(
           height: 20.0,
-          color: Colors.amberAccent,
+          color: Colors.blue,
         ),
       ),
       floatingActionButton: _crearbuttoms(),
